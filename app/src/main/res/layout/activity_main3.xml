@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/txtC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Datos de Compra"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_margin="10sp"
+        />
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su nombre"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtC"
+        android:layout_margin="5sp"
+        />
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su apellido"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtNombre"
+        android:layout_margin="5sp"
+        />
+    <EditText
+        android:id="@+id/txtNit"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese su Nit"
+        android:textSize="20sp"
+        android:layout_below="@+id/txtApellido"
+        android:layout_margin="5sp"
+        />
+    <EditText
+        android:id="@+id/txtBoletos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cantidad de boletos"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/txtNombre"
+        android:layout_marginTop="70sp"
+        />
+    <Button
+        android:id="@+id/btnPresio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Presio del Boleto \n Q45.00"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/txtNit"
+        android:layout_marginTop="170sp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:onClick="onClick"
+        />
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_gravity="center"
+        android:src="@drawable/entradas"
+        android:layout_below="@+id/txtNit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30sp"
+        />
+    <TextView
+        android:id="@+id/txtTotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="30sp"
+        android:layout_below="@+id/btnPresio"
+        android:gravity="center"
+        android:layout_marginTop="215sp"
+        />
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boletos"
+        android:layout_below="@+id/txtTotal"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#AEEA00"
+        android:onClick="onClick"
+        />
+
+</RelativeLayout>

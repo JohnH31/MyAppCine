@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">MyAppCine</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sinopsis1">
+El faro \n
+Una remota y misteriosa isla de Nueva Inglaterra en la década de 1890. El veterano farero Thomas Wake (Willem Dafoe) y su joven ayudante Ephraim Winslow (Robert Pattinson) deberán convivir durante cuatro semanas. Su objetivo será mantener el faro en buenas condiciones hasta que llegue el relevo que les permita volver a tierra. Pero las cosas se complican cuando surjan conflictos por jerarquías de poder entre ambos. Este drama de terror y fantasía lo dirige Robert Eggers, responsable de La bruja: Una leyenda de Nueva Inglaterra (2015).
+    </string>
+    <string name="director1">
+Direccion: Robert Eggers. Reparto: Willem Dafoe, Robert Pattinson, Valeriia Karaman.
+    </string>
+    <string name="puntuacion1">
+Puntuacion: 4 Estrellas
+\n Recaudacion: $2,083,806,217
+    </string>
+
+    <string name="sinopsis2">
+1917\n
+Aun siendo admirador de Bong Joon-hoo desde Memories of Murder, y habiendo gozado con Parásitos, siento que la Academia de Hollywood fue injusta con el reparto de los Oscars, y Mendes merecía algo más por su impresionante drama bélico. 1917 consigue sumergir al espectador en una aventura cargada de emoción donde destaca la asombrosa puesta en escena.
+    </string>
+    <string name="director2">
+Direccion: Sam Mendes. Reparto: George MacKay, Dean-Charles Chapman, Benedict Cumberbatch, Colin Firth, Andrew Scott, Mark Strong, Richard Madden.
+    </string>
+    <string name="puntuacion2">
+Puntuacion: 4.4 Estrellas
+\n Recaudacion: $1,656,943,394
+    </string>
+
+    <string name="sinopsis3">
+Onward \n
+Tras reventar las taquillas con secuelas, Pixar vuelve a ofrecer una historia original que, a pesar de presentar un vasto mundo fantástico, se centra en la relación de dos hermanos. Quizá carece del ingenio de sus más brillantes películas pero no deja de ser uno de los entretenimientos más efectivos y bonitos del año; capaz de provocar risas y lágrimas con la misma facilidad, posee una secuencia climática memorable.
+    </string>
+    <string name="director3">
+Direccion: Dan Scanlon. Reparto (voces originales): Chris Pratt, Tom Holland, Julia Louis-Dreyfus, Octavia Spencer.
+    </string>
+    <string name="puntuacion3">
+Puntuacion: 4.6 Estrellas
+\n Recaudacion: $1,518,812,988
+    </string>
+
+    <string name="sinopsis4">
+Vida oculta \n
+La última de Malick, presentada en Cannes, son tres horas que resumen lo mejor y lo peor de su cine. Diría que "para fans", pero creo hay escenas tan hermosas, impulsadas por la emocionante música de James Newton Howard, que cualquier espectador que busque una historia poderosa debería adentrarse en esta profunda reflexión protagonizada por un auténtico mártir. Al menos un ratito. Quizá verla en casa, con las pausas necesarios o incluso en dos partes, sea una opción recomendable para disfrutarla sin agotamiento.
+    </string>
+    <string name="director4">
+Direccion: Terrence Malick. Reparto: August Diehl, Valerie Pachner, Maria Simon, Bruno Ganz, Matthias Schoenaerts, Franz Rogowski.
+    </string>
+    <string name="puntuacion4">
+Puntuacion: 4.2 Estrellas
+\n Recaudacion: $1,066,179,725
+    </string>
+
+    <string name="sinopsis5">
+La camarista \n
+Mientras el veterano Malick nos seduce con magníficas escenas de naturaleza para plantear sus dilemas filosóficos, la debutante Avilés nos encierra en un hotel de lujo para seguir a su particular heroína, una joven mexicana cuya existencia queda reducida a un trabajo rutinario y alienante: limpiar habitaciones. Entre los alivios de su rutina está el hallazgo de pequeños "tesoros" en las basuras de los clientes (individuos de primera clase que la desprecian) o las modestas recompensas con las que se motiva a las empleadas. Solo por la escena donde sale para disfrutar de un pequeño instante de paz, y se concentra en el cielo, ya merece la pena.
+    </string>
+    <string name="director5">
+Direccion: Lila Avilés. Reparto: Gabriela Cartol, Agustina Quinci, Teresa Sánchez.
+    </string>
+    <string name="puntuacion5">
+Puntuacion: 4.1 Estrellas
+\n Recaudacion: $976,920,103
+    </string>
+
+    <string name="sinopsis6">
+Sinonimos \n
+Y siguiendo con la identidad, he aquí una de las películas más potentes que he visto en los últimos meses. Lapid se alzó con el Oso de Oro en la Berlinale de 2019 con este intenso viaje donde un inmigrante israelí que, tras perderlo todo (se queda literalmente en pelotas), busca reconstruirse como un ciudadano ejemplar en París, como símbolo de la Europa moderna. El resultado es tan crudo como brillante, dejando en evidencia el frágil equilibrio en el que construimos nuestra realidad.
+    </string>
+    <string name="director6">
+Direccion: Nadav Lapid. Reparto: Tom Mercier, Quentin Dolmaire, Louise Chevillotte, Uria Hayik, Olivier Loustau.
+    </string>
+    <string name="puntuacion6">
+Puntuacion: 4.4 Estrellas
+\n Recaudacion: $886,686,817
+    </string>
+</resources>

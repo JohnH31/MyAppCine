@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:id="@+id/imgCompra"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher_round"
+        android:adjustViewBounds="true"
+        android:padding="20sp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_margin="10sp"
+        android:onClick="onClick"
+        />
+    <TextView
+        android:id="@+id/txtCompra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pureba"
+        android:layout_margin="10sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+        <Button
+            android:id="@+id/btnSinopsis"
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:text="Sinopsis"
+            android:layout_gravity="center"
+            android:backgroundTint="#00B8D4"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnDirector"
+            android:layout_width="130sp"
+            android:layout_height="60sp"
+            android:text="Directores y \n Actores"
+            android:backgroundTint="#00B8D4"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            />
+        <Button
+            android:id="@+id/btnPuntacion"
+            android:layout_width="130sp"
+            android:layout_height="60sp"
+            android:text="Puntuacion y \n Recaudacion"
+            android:layout_gravity="center"
+            android:backgroundTint="#00B8D4"
+            android:onClick="onClick"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="320sp">
+
+        <FrameLayout
+            android:id="@+id/contenedorID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprar Boletos"
+        android:backgroundTint="#2962FF"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:onClick="onClick"
+        />
+
+</LinearLayout>
